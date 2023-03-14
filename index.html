@@ -4,23 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="stylesheet" href="src/style.css">
   <title>Frontend Mentor | E-commerce product page</title>
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
-  <header>
-    <div>
+  <header class="flex justify-between">
+    <div class="flex">
       <h1>sneakers</h1>
       <nav>
         <a href="#">Collections</a>
@@ -30,23 +21,21 @@
         <a href="#">Contact</a>
       </nav>
     </div>
-    <div>
-      <img src="images/icon-cart.svg">
-      <img src="images/image-avatar.png">
+    <div class="flex">
+      <img src="icon-cart.svg">
+      <img src="image-avatar.png">
     </div>
   </header>
 
-  <main>
+  <main class="flex min-h-screen">
     <section>
-      <img src="images/image-product-1.jpg">
+      <img src="image-product-1.jpg">
     </section>
     <section>
       <h2>Sneaker Company</h2>
       <h3>Fall Limited Edition Sneakers</h3>
       <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
         durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
-  
-  
       <div>
         <span>$125.00</span>
         <span>50%</span>
